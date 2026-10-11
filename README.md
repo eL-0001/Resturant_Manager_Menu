@@ -65,3 +65,5 @@ After adding items, choosing **Show Menu** displays them with numbers so you can
 **eL-0001 (also Bokang Malgas)**
 
 This project is part of my early C# learning and practice.
+
+~eL
