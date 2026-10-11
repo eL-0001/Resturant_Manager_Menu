@@ -102,7 +102,7 @@ public class Program
             }
             else if (num == 3)
             {
-                if (num == 3 && foods.Count == 0)
+                if (foods.Count == 0)
                 {
                     Console.WriteLine();
                     Console.WriteLine("There is nothing on the menu to edit, please try again");
@@ -139,7 +139,21 @@ public class Program
             }
             else if (num == 4)
             {
+                if (foods.count != 0);
+                {
                 ShowMenu(foods);
+                }
+                else
+                {
+                     Console.WriteLine("Menu: ");
+                    int count = 1;
+    
+                    foreach (string food in foods)
+                    {
+                        Console.WriteLine($"{count}.{food}");
+                        count++;
+                    }
+                }
             }
             else if (num == 5)
             {
