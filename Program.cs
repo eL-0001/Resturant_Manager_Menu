@@ -139,7 +139,7 @@ public class Program
             }
             else if (num == 4)
             {
-                if (foods.count != 0);
+                if (foods.Count != 0);
                 {
                 ShowMenu(foods);
                 }
